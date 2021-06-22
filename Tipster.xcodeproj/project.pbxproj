@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E3F715D2682772C00047B82 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F715C2682772C00047B82 /* TipViewController.m */; };
+		5E3F71602682A78200047B82 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3F715F2682A78200047B82 /* SettingsViewController.m */; };
 		5EC3325826826DF4007DCDF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3325726826DF4007DCDF6 /* AppDelegate.m */; };
 		5EC3325B26826DF4007DCDF6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC3325A26826DF4007DCDF6 /* SceneDelegate.m */; };
 		5EC3326126826DF4007DCDF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC3325F26826DF4007DCDF6 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		5E3F715B2682772C00047B82 /* TipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
 		5E3F715C2682772C00047B82 /* TipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		5E3F715E2682A78200047B82 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		5E3F715F2682A78200047B82 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		5EC3325326826DF4007DCDF6 /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC3325626826DF4007DCDF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EC3325726826DF4007DCDF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 				5EC3325926826DF4007DCDF6 /* SceneDelegate.h */,
 				5EC3325A26826DF4007DCDF6 /* SceneDelegate.m */,
 				5EC3325F26826DF4007DCDF6 /* Main.storyboard */,
+				5E3F715E2682A78200047B82 /* SettingsViewController.h */,
+				5E3F715F2682A78200047B82 /* SettingsViewController.m */,
 				5E3F715B2682772C00047B82 /* TipViewController.h */,
 				5E3F715C2682772C00047B82 /* TipViewController.m */,
 				5EC3326226826DF5007DCDF6 /* Assets.xcassets */,
@@ -268,6 +273,7 @@
 			files = (
 				5EC3325826826DF4007DCDF6 /* AppDelegate.m in Sources */,
 				5EC3326926826DF5007DCDF6 /* main.m in Sources */,
+				5E3F71602682A78200047B82 /* SettingsViewController.m in Sources */,
 				5E3F715D2682772C00047B82 /* TipViewController.m in Sources */,
 				5EC3325B26826DF4007DCDF6 /* SceneDelegate.m in Sources */,
 			);
