@@ -8,6 +8,7 @@
 #import "SettingsViewController.h"
 
 @interface SettingsViewController ()
+@property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
 
 @end
 
@@ -16,6 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+
+- (IBAction)updateDefault:(id)sender {
+    double tipPercentages[] = {0.10, 0.15, 0.20};
+    double tipPercentage = tipPercentages[self.tipControl.selectedSegmentIndex];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setDouble:tipPercentage forKey:@"default_tip_percentage"];
+    [defaults synchronize];
 }
 
 /*

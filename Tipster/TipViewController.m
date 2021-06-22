@@ -24,8 +24,17 @@
     [self changeColorOriginal];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double defaultTip = [defaults doubleForKey:@"default_tip_percentage"];
+    
+}
+
+
+
 - (IBAction)onTap:(id)sender {
-    NSLog(@"hello");
     
     [self.view endEditing:true];
 }
