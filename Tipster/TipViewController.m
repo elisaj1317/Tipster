@@ -37,7 +37,9 @@
             self.tipPercentControl.selectedSegmentIndex = i;
         }
     }
-    
+    if (self.labelsContainerView.alpha == 1) {
+        [self changeColorTip];
+    }
     [self updateText];
     
     

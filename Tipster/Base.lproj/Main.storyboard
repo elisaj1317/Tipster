@@ -41,7 +41,7 @@
                                     <action selector="updateLabels:" destination="BYZ-38-t0r" eventType="editingChanged" id="wi2-XF-n7E"/>
                                 </connections>
                             </textField>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FUc-a9-e4A">
+                            <view alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FUc-a9-e4A">
                                 <rect key="frame" x="19" y="256" width="377" height="315"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>

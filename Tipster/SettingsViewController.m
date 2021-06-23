@@ -29,6 +29,22 @@
     [defaults synchronize];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double defaultTip = [defaults doubleForKey:@"default_tip_percentage"];
+    
+    double tipPercentages[] = {0.10, 0.15, 0.20};
+    
+    for (int i = 0; i <= sizeof(tipPercentages); i += 1) {
+        if (tipPercentages[i] == defaultTip) {
+            self.tipControl.selectedSegmentIndex = i;
+        }
+    }
+    
+}
+
 /*
 #pragma mark - Navigation
 
