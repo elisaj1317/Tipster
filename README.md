@@ -35,7 +35,7 @@ GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I found it difficult to change the background color of the screen and to animate the labels and text boxes down once the user starts typing. However from these challenges, I learned how to create custom UIColors and that there may be several conditions that set off an action (some easier to code than others). 
 
 ## Credits
 
