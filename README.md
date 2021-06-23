@@ -23,7 +23,7 @@ Just launch the app and start typing.
 
 Here's a walkthrough of implemented user stories:
 
-<img src='![](Tipster2.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Tipster2.gif' title='Video Walkthrough' width='300' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
